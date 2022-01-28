@@ -50,7 +50,7 @@ class VariableNamesChecker:
         'info',
         'handler',
     ))
-    _single_letter_names_whitelist = frozenset(('i', '_', 'T'))
+    _single_letter_names_whitelist = frozenset(('i', 'k', 'v', '_', 'T'))
     _single_letter_names_whitelist_strict = frozenset(('_', 'T'))
 
     __cached_blacklist: Set[str] = set()
